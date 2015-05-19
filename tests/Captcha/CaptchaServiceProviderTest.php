@@ -1,4 +1,4 @@
-<?php namespace Mews\Tests\Captcha;
+<?php namespace Chekun\Tests\Captcha;
 
 use TestCase;
 use Mockery;

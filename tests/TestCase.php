@@ -1,4 +1,4 @@
-<?php namespace Mews\Tests\Captcha;
+<?php namespace Chekun\Tests\Captcha;
 
 class TestCase extends \Illuminate\Foundation\Testing\TestCase {
 

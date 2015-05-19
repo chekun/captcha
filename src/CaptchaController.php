@@ -1,4 +1,4 @@
-<?php namespace Mews\Captcha;
+<?php namespace Chekun\Captcha;
 
 use Illuminate\Routing\Controller as BaseController;
 

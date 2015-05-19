@@ -1,4 +1,4 @@
-<?php namespace Mews\Captcha;
+<?php namespace Chekun\Captcha;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Factory;
@@ -57,7 +57,7 @@ class CaptchaServiceProvider extends ServiceProvider {
          * @param $config
          * @return \Intervention\Image\ImageManager
          */
-        $this->app['router']->get('captcha/{config?}', 'Mews\Captcha\CaptchaController@draw');
+        $this->app['router']->get('captcha/{config?}', 'Chekun\Captcha\CaptchaController@draw');
 
         $this->app['validator'] = $this->app->share(function($app) {
             $validator = new Factory($app['translator']);
